@@ -19,13 +19,13 @@ public static void main(String args[]) {
     Main.product p = mainObj.new product();
 
     int result1 = p.product(2, 3);
-    System.out.println("Result 1: " + result1);
+    System.out.println(result1);
 
     int result2 = p.product(2, 3, 4);
-    System.out.println("Result 2: " + result2);
+    System.out.println(result2);
 
     double result3 = p.product(2.5, 3.5);
-    System.out.println("Result 3: " + result3);
+    System.out.println(result3);
 }
 
 }
